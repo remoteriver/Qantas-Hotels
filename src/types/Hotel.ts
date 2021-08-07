@@ -28,7 +28,7 @@ export type Rating = {
 };
 
 export enum RatingType {
-  SELF = 'SELF',
+  SELF = 'self',
   STAR = 'STAR',
 }
 

@@ -1,4 +1,4 @@
-import { Container, Grid } from '@material-ui/core';
+import { Box, Container, Grid } from '@material-ui/core';
 import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useDispatch, useSelector } from 'react-redux';
@@ -28,8 +28,10 @@ export const HomePage = () => {
         <meta name="description" content="A Boilerplate application homepage" />
       </Helmet>
       <Container maxWidth="md">
-        <Header></Header>
-        <HotelList hotels={results ?? []}></HotelList>
+        <Box p={2}>
+          <Header></Header>
+          <HotelList hotels={results ?? []}></HotelList>
+        </Box>
       </Container>
     </>
   );

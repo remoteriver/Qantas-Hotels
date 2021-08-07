@@ -44,6 +44,19 @@ const useStyles = makeStyles({
     borderTop: 'solid 1px #d7d7d7',
     marginLeft: 20,
   },
+  propertyTitle: {
+    /**
+     * max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+     */
+    maxWidth: 350,
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    marginRight: 15,
+  },
 });
 
 export const HotelCard = (prop: Props) => {
@@ -60,8 +73,10 @@ export const HotelCard = (prop: Props) => {
       </Grid>
       <Grid item container xs className={classes.content}>
         <Grid item xs={10} container direction="column">
-          <Grid item>
-            <Typography variant="h5">{hotel.property.title}</Typography>
+          <Grid item container>
+            <Typography variant="h5" className={classes.propertyTitle}>
+              {hotel.property.title}
+            </Typography>
             <RatingBar rating={hotel.property.rating}></RatingBar>
           </Grid>
           <Grid item>
