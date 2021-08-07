@@ -31,7 +31,13 @@ export enum RatingType {
   SELF = 'SELF',
 }
 
-export type Offer = {};
+export type Offer = {
+  promotion: Promotion;
+  name: string;
+  displayPrice: Price;
+  savings: Price;
+  cancellationOption: CancellationOption;
+};
 
 export type Promotion = {
   title: string;

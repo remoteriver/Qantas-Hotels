@@ -1,10 +1,11 @@
-import { Container } from '@material-ui/core';
+import { Container, Grid } from '@material-ui/core';
 import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useDispatch, useSelector } from 'react-redux';
 import { useInjectReducer, useInjectSaga } from 'utils/redux-injectors';
 import { useEffectOnMount } from 'utils/useEffectOnMount';
 import { Header } from './components/Header';
+import { HotelList } from './components/HotelList';
 import { saga } from './saga';
 import { selectResults } from './selectors';
 import { sliceKey, reducer, actions } from './slice';
@@ -28,7 +29,7 @@ export const HomePage = () => {
       </Helmet>
       <Container maxWidth="md">
         <Header></Header>
-        <span>HomePage container</span>
+        <HotelList hotels={results ?? []}></HotelList>
       </Container>
     </>
   );
