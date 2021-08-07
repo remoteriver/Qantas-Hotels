@@ -57,7 +57,7 @@ I used jest as the test framework for unit tests, and added snapshot tests for a
 
 Localization could be easily implemented by i18n library
 
-Don't have much time to add comments in the code... 
+Don't have much time to add comments in the code... but I believe the basic flow is clear and the code itself should be descriptive enough for the reviewer to understand
 
 Might have some typos in the code and the document...
 
