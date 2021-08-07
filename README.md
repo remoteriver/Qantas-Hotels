@@ -1,7 +1,7 @@
 <h1>Qantas-Hotels</h1>
  <p>Framework: React JS</p>
  <p>UI-Library: Material-UI</p>
- <img width="914" alt="React Boilerplate Meets CRA" src="https://user-images.githubusercontent.com/3495307/80274591-2d5daa00-86e4-11ea-8fba-404f1cdba87e.png" align="center">
+ <img width="914" alt="React Boilerplate Meets CRA" src="https://ibb.co/vjwWFgb" align="center">
  
 
 
@@ -9,6 +9,8 @@
 - Display list of hotels from the backend data
 - Sort the list by price
 
+ <img width="914" alt="draw.io" src="https://user-images.githubusercontent.com/3495307/80274591-2d5daa00-86e4-11ea-8fba-404f1cdba87e.png" align="center">
+ 
 
 ## Get the source code
 
