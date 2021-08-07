@@ -45,6 +45,8 @@ npm test
 
 The project is based on the React Boilerplate as a template which allows me to quickly start the development
 
+I used typescript to make sure all the objects are strongly typed
+
 I chose material-ui as the main UI library, but unfortunately don't have enough time to incorporate the custom theme which can provide a nice and consistent UI stlyling
 
 Flexbox (In material-ui it's wrapped as the Grid component) is the main technique for layouting the UI elements
