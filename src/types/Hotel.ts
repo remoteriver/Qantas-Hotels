@@ -29,13 +29,14 @@ export type Rating = {
 
 export enum RatingType {
   SELF = 'SELF',
+  STAR = 'STAR',
 }
 
 export type Offer = {
   promotion: Promotion;
   name: string;
   displayPrice: Price;
-  savings: Price;
+  savings?: Price;
   cancellationOption: CancellationOption;
 };
 
@@ -63,6 +64,7 @@ export type CancellationOption = {
 
 export enum CancellationType {
   FREE_CANCELLATION = 'FREE_CANCELLATION',
+  NOT_REFUNDABLE = 'NOT_REFUNDABLE',
 }
 
 /**
