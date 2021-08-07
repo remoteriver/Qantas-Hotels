@@ -30,7 +30,7 @@ export const HomePage = () => {
       <Container maxWidth="md">
         <Box p={2}>
           <Header></Header>
-          <HotelList hotels={results ?? []}></HotelList>
+          <HotelList hotels={results}></HotelList>
         </Box>
       </Container>
     </>

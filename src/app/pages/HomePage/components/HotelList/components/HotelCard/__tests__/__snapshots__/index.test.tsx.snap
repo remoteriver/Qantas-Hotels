@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HotelCard /> should render and match the snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className="makeStyles-root-1"
+  container={true}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+  >
+    <div
+      className="makeStyles-imgContainer-2"
+    >
+      <div
+        className="makeStyles-banner-3"
+      >
+        Exclusive Deal
+      </div>
+      <img
+        alt="hotel preview logo"
+        src="https://unsplash.it/145/125/?random"
+      />
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    className="makeStyles-content-4"
+    container={true}
+    item={true}
+    xs={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      direction="column"
+      item={true}
+      xs={10}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+      >
+        <WithStyles(ForwardRef(Typography))
+          className="makeStyles-propertyTitle-5"
+          variant="h5"
+        >
+          Courtyard by Marriott Sydney-North Ryde
+        </WithStyles(ForwardRef(Typography))>
+        <RatingBar
+          rating={
+            Object {
+              "ratingType": "self",
+              "ratingValue": 4.5,
+            }
+          }
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <WithStyles(ForwardRef(Typography))
+          variant="caption"
+        >
+          7-11 Talavera Rd
+          North Ryde
+        </WithStyles(ForwardRef(Typography))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={true}
+      >
+        <Styled(MuiBox)
+          marginY={1}
+        >
+          <WithStyles(ForwardRef(Link))>
+            <WithStyles(ForwardRef(Typography))
+              variant="caption"
+            >
+              Deluxe Balcony Room
+            </WithStyles(ForwardRef(Typography))>
+          </WithStyles(ForwardRef(Link))>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      direction="column"
+      item={true}
+      xs={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={true}
+      />
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Styled(MuiBox)
+          textAlign="right"
+        >
+          <WithStyles(ForwardRef(Typography))
+            component="span"
+            variant="body2"
+          >
+            1
+          </WithStyles(ForwardRef(Typography))>
+          <WithStyles(ForwardRef(Typography))
+            component="span"
+            variant="caption"
+          >
+             night total (AUD)
+          </WithStyles(ForwardRef(Typography))>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          textAlign="right"
+        >
+          <WithStyles(ForwardRef(Grid))
+            alignItems="flex-start"
+            container={true}
+            justifyContent="flex-end"
+            spacing={1}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+            >
+              <WithStyles(ForwardRef(Typography))
+                component="span"
+                variant="body2"
+              >
+                $
+              </WithStyles(ForwardRef(Typography))>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+            >
+              <WithStyles(ForwardRef(Typography))
+                component="span"
+                variant="h5"
+              >
+                329
+              </WithStyles(ForwardRef(Typography))>
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          textAlign="right"
+        >
+          <WithStyles(ForwardRef(Typography))
+            component="span"
+            variant="body1"
+          >
+            Save $30~
+          </WithStyles(ForwardRef(Typography))>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

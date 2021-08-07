@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HotelCard /> should render and match the snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="MuiToolbar-root MuiToolbar-regular"
+    >
+      <img
+        alt="logo"
+        class="makeStyles-logo-1"
+        src="img/qantas-logo.png"
+      />
+    </div>
+  </div>
+</body>
+`;
