@@ -18,6 +18,8 @@ git clone https://github.com/remoteriver/Qantas-Hotels
 
 ## Install & Start
 
+nodejs, npm are required to run the project
+
 1. Install packages:
 
 ```shell
@@ -38,5 +40,19 @@ npm start
 npm test
 ```
 
+## Notes
 
+The project is based on the React Boilerplate as a template which allows me to quickly start the development
+
+I chose material-ui as the main UI library, but unfortunately don't have enough time to incorporate the custom theme which can provide a nice and consistent UI stlyling
+
+Flexbox (In material-ui it's wrapped as the Grid component) is the main technique for layouting the UI elements
+
+I used redux and redux-saga to manage the global state and handle the side effects
+
+I used jest as the test framework for unit tests, and added snapshot tests for all the components 
+
+Localization could be easily implemented by i18n library
+
+Don't have much time to add comments in the code... 
 
