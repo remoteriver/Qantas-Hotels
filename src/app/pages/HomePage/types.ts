@@ -1,4 +1,3 @@
-import { Color } from '@material-ui/core';
 import { Hotel } from 'types/Hotel';
 
 /* --- STATE --- */

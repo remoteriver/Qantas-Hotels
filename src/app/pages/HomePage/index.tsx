@@ -1,4 +1,4 @@
-import { Box, Container, Grid } from '@material-ui/core';
+import { Box, Container } from '@material-ui/core';
 import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useDispatch, useSelector } from 'react-redux';

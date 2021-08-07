@@ -1,19 +1,11 @@
 import {
-  Box,
-  Container,
   FormControl,
-  Grid,
   InputLabel,
   makeStyles,
   MenuItem,
   Select,
-  Toolbar,
-  Typography,
 } from '@material-ui/core';
 import { SortBy } from 'app/pages/HomePage/types';
-import * as React from 'react';
-import { Helmet } from 'react-helmet-async';
-import { Hotel } from 'types/Hotel';
 
 export interface Props {
   sortby: SortBy;

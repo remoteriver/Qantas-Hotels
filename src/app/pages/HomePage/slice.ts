@@ -1,6 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { ContainerState, Data } from './types';
-import remove from 'lodash/remove';
 
 export const initialState: ContainerState = {
   results: [],

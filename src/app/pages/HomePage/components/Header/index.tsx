@@ -1,6 +1,4 @@
-import { Container, makeStyles, Toolbar } from '@material-ui/core';
-import * as React from 'react';
-import { Helmet } from 'react-helmet-async';
+import { makeStyles, Toolbar } from '@material-ui/core';
 
 const useStyles = makeStyles({
   logo: {

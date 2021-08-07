@@ -1,19 +1,6 @@
-import {
-  Box,
-  Container,
-  FormControl,
-  Grid,
-  InputLabel,
-  makeStyles,
-  MenuItem,
-  Select,
-  Toolbar,
-  Typography,
-} from '@material-ui/core';
-import * as React from 'react';
-import { useEffect, useMemo } from 'react';
+import { Box, Grid, makeStyles, Typography } from '@material-ui/core';
+import { useMemo } from 'react';
 import { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
 import { Hotel } from 'types/Hotel';
 import { SortBy } from '../../types';
 import { HotelCard } from './components/HotelCard';

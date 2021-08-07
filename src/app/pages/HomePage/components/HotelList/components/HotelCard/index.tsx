@@ -1,19 +1,12 @@
 import {
   Box,
   Button,
-  Card,
-  CardContent,
-  CardMedia,
-  Container,
   Grid,
   Link,
   makeStyles,
-  Toolbar,
   Typography,
 } from '@material-ui/core';
 import { RatingBar } from 'app/components/RatingBar';
-import * as React from 'react';
-import { Helmet } from 'react-helmet-async';
 import { CancellationType, Hotel } from 'types/Hotel';
 
 export interface Props {
@@ -45,12 +38,6 @@ const useStyles = makeStyles({
     marginLeft: 20,
   },
   propertyTitle: {
-    /**
-     * max-width: 300px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-     */
     maxWidth: 350,
     whiteSpace: 'nowrap',
     overflow: 'hidden',
