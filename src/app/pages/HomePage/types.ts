@@ -8,6 +8,11 @@ export interface HomePageState {
 
 export type ContainerState = HomePageState;
 
-export interface Data {
+export type Data = {
   results: Hotel[];
+};
+
+export enum SortBy {
+  PRICE_LOW_HIGH,
+  PRICE_HIGH_LOW,
 }
