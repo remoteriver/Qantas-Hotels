@@ -1,3 +1,4 @@
+import { render } from '@testing-library/react';
 import { createRenderer } from 'react-test-renderer/shallow';
 import {
   CancellationType,
@@ -47,11 +48,15 @@ describe('<HotelCard />', () => {
     },
   };
 
+  const mockFn = jest.fn();
+
   beforeAll(() => {});
 
   it('should render and match the snapshot', () => {
     //act
-    renderer.render(<HotelCard hotel={mockHotel}></HotelCard>);
+    renderer.render(
+      <HotelCard hotel={mockHotel} removeHandler={mockFn}></HotelCard>,
+    );
     const renderedOutput = renderer.getRenderOutput();
 
     //assert
